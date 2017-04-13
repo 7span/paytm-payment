@@ -1,4 +1,4 @@
-<?php namespace Princealikhan\PaytmPayment\Factories;
+<?php namespace sevenspan\PaytmPayment\Factories;
 
 use Illuminate\Support\Facades\Config;
 class PaytmFactory

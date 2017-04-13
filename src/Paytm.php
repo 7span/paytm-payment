@@ -1,6 +1,6 @@
-<?php namespace Princealikhan\PaytmPayment;
+<?php namespace Sevenspan\PaytmPayment;
 
-use Princealikhan\PaytmPayment\Factories\PaytmFactory;
+use sevenspan\PaytmPayment\Factories\PaytmFactory;
 use Illuminate\Support\Facades\Config;
 
 class Paytm extends PaytmFactory{
@@ -40,7 +40,7 @@ class Paytm extends PaytmFactory{
 		$requestParamList["INDUSTRY_TYPE_ID"] 	= $this->industry;
 		$requestParamList["CHANNEL_ID"] 		= $this->channel;
 		$requestParamList["WEBSITE"] 			= $this->website;
-		//$requestParamList["CALLBACK_URL"] 		= $this->callback;
+		$requestParamList["CALLBACK_URL"] 		= $this->callback;
 
 		$checkSum = parent::getChecksumFromArray($requestParamList,$this->merchantKey);
 		return parent::payNow($this->txnUrl, $requestParamList,$checkSum);

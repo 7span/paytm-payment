@@ -1,4 +1,4 @@
-<?php namespace Princealikhan\PaytmPayment\Exceptions;
+<?php namespace sevenspan\PaytmPayment\Exceptions;
 /**
  * Invalid Request Exception
  *

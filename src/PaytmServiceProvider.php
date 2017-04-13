@@ -1,4 +1,4 @@
-<?php namespace Princealikhan\PaytmPayment;
+<?php namespace Sevenspan\PaytmPayment;
 
 use Illuminate\Support\ServiceProvider;
 

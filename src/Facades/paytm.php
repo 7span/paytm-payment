@@ -1,4 +1,4 @@
-<?php namespace Princealikhan\PaytmPayment\Facades;
+<?php namespace sevenspan\PaytmPayment\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
