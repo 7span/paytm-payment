@@ -1,6 +1,6 @@
 # Paytm Payment Library For Laravel 5 
 
-## Introduction
+## Introduction.
 
 It simplifies the payment flow with the defined methods. You can pay through paytm just writing few lines of codes. Before you start installing this service, please complete your Paytem setup at [on Paytm](http://paywithpaytm.com).
 
